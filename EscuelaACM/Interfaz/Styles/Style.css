@@ -1,0 +1,84 @@
+﻿/* - - - - - - - - - - CONTENIDO UNIVERSAL - - - - - - - - - - */
+
+* {
+    box-sizing: border-box; /* Suma margen interno y externo*/
+    padding: 0px;
+    margin: 0px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+body {
+}
+
+ul li {
+    list-style: none;
+    height: 58px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none; /*Retiro el subrrayado del hipervinculo*/
+}
+
+header {
+    margin: 50px 0px;
+}
+
+.container {
+    width: 90%; /*Tamaño de ventana automático*/
+    margin: auto; /*Centra el contenido*/
+}
+
+.campos li {
+    margin: 20px 0px;
+}
+
+.campos li input[type=text],
+.campos li input[type=number]{
+    height: 30px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.Btn {
+    /*Aparece el puntor encima del elemento botón*/
+    cursor: pointer;
+    /*Caja en linea*/
+    /*Peso de la fuente*/
+    font-weight: bold;
+    padding: 10px 10px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    display: inline;
+    border-radius: 20px;
+}
+
+.Btn:hover {
+    opacity: .7;
+}
+
+.Tabla {
+    margin: 20px 0px
+}
+
+#Cont-Buttom {
+    height: 10%;
+    width: 80%;
+}
+
+.botones {
+    display: flex; /*Utilizo los elementos como bloques*/ /*Utiliza todo el ancho posible*/
+    padding: 50px 0px;
+    gap: 7%;
+    align-items: center; /*Alineado de los elementos en bloque*/
+}
+
+.TablasCheck {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    align-items: flex-start; /* Centrar flexibilidad en columna ¿? */
+    justify-content: center;
+}
